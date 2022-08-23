@@ -1,0 +1,2 @@
+# PHAS0077_SCIRP_Model_Optimisation_in_Algorithm_Trading_and_Key_Signals_Search
+Price Prediction model training and Investigation on Trading Signals
