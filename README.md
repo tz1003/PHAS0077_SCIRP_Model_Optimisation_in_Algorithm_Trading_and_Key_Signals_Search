@@ -1,23 +1,49 @@
 # SDIC 2022——PHAS0077: Scientific Computing Individual Research Project
 
-This project could be divided into two parts: first part concentrate on training models for price prediction of the future market; second parts focuses on the investigations on the trading signals. The example data could be found in folder "example_data"
-The code has the following chapters:
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
+This project could be divided into two parts: first part concentrate on training models for price prediction of the future market; second parts focuses on the investigations on the trading signals. The input data could be found in the Excel xlsx file "
+
+## Table of Contents
+
+- [Price Prediction Model-Machine Learning](#machine-learning-price-prediction-model)
+- [Price Prediction Model-Neural Network](#neural-network-price-prediction-model)
+- [Trading Signals-Classical Indicator](#classical-indicator)
+- [Trading Signals-Chart Analysis Signals](#chart-analysis-signals)
+- [Input Data](#input-data)
+- [Contributors](#contributors)
+- [License](#license)
 
 # Price Prediction Model
 
-This experiment includes two sub-tasks. First is to training the model with the 
+This experiment includes two sub-tasks. First is to training the price prediction models with the common seen machine learning models, and the second aims to consturct more complex neural network.
 
+## Machine Learning Price Prediction Model
+This experiment describes an in-depth exploration of the application of the classical machine learning model in the asset/stock price prediction system. The study reviews the characteristics and the features of the dataset and accordingly selects a few models including the linear and tree models which are expected to perform well in our case. The techniques in model optimisations including feature engineering and hyper-parameter tunning are also presented. 
 
-This thesis is an applied study for the application of machine learning and signals in the trading market. This research presents several studies, which include the construction of the stock price prediction system based on linear models with L1 and L2 regularisation, bagging and boosting tree models, and the details in feature engineering and model optimisation. A neural network model was also constructed and applied to the system. Their performance was evaluated by the root mean square error under cross-validation, and the results were summed up and discussed at the end of the first part. The second part mainly concentrates on the investigation of the signals, which firstly examines whether the classical signals with a long history could still aid the trading in the current market, followed by the discussions on the technical chart analysis. The signals reflecting this method would then be introduced and verified.
-The motivation is to verify the effect of machine learning in price prediction and use them to aid the trading positioning in the market. As for the indicators, since the market has been evolving throughout history, while the classical signals might have already lost their effect, verifying these signals was therefore carried out in this research.
-This thesis also attempted to convert the technical chart analysis into signals that the machine could understand, as the traditional chart analysis heavily relies on the traders’ institution. The patterns were summarised into signals, and a trading algorithm was implemented to reflect this method.
+## Neural Network Price Prediction Model
+This chapter presents the investigation of the application of the neural network model in the asset/stock price prediction system. The study reviews the few neural network structure and tests their performances. The data also has been transformed into high dimensional time series data referring to the previous work in time series prediction in other industries. The models are optimised by adjusting the network structure and optimisers. The performance is evaluated by determining the root mean square error.
 
 # Trading Signals
+This experiment includes two sub-tasks. The first task verify the effectiveness of some classical signals in current the crude oil market. The second task attempt to convert four patterns in chart analysis into signals and test their performance.  
 
+## Classical Indicator
+The first task reviews the popular signals introduced in the past few decades. Some of them are modified to fit the current market, and an in-depth examination of their performance in aiding trading timing is then carried out. 
+The indicators used/modified are MACD, RSI, Bollinger Band and KDJ.
 
+## Chart Analysis Signals
+The second task concentrates on the extraction of the signals from the technical chart analysis, such as the signals reflecting the falling edge patterns. The signals are wrapped into the trading strategies and their effects on the trading timing are evaluated. 
 
-Supervisor:
+## Input Data
 
-Prof Philip Treleavan
+The data used in the notebooks are as follows:
+- Crude Oil WTI Futures Historical Data (Crude Oil WTI Futures Historical Data.csv)
+- Federal Funds Composite Interest Rate Historical Data-Daily (Federal Funds Composite Interest Rate Historical Data-Daily.csv)
 
-Dr Wilbur Zhu
+## Contributors
+
+This projects exists thanks to supervisors Prof Philip Treleaven and Dr Wilbur Zhu for their patience and willingness to help  throughout the project, from the detailed guidance to such much advice on the development of thesis and code. 
+
+## License
+
+[MIT](LICENSE) © tz1003
