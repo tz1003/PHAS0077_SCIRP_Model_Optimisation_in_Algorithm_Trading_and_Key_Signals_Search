@@ -2,7 +2,7 @@
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-This project could be divided into two parts: first part concentrate on training models for price prediction of the future market; second parts focuses on the investigations on the trading signals. The input data could be found in the Excel xlsx file "
+This project could be divided into two parts: first part concentrate on training models for price prediction of the future market; second parts focuses on the investigations on the trading signals.
 
 ## Table of Contents
 
